@@ -1,0 +1,22 @@
+{
+  "name": "umd-module-boilderplate-with-rollup",
+  "version": "1.0.0",
+  "description": "Boilerplate for making UMD Module for Modern JavaScript environments with Rollup",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.95.1",
+    "rollup": "^1.7.0",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
